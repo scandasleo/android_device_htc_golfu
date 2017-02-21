@@ -6,14 +6,14 @@ TARGET_SCREEN_WIDTH  := 480
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/golfu/golfu.mk)
 
 # Product name
 PRODUCT_DEVICE := golfu
-PRODUCT_NAME := cm_golfu
+PRODUCT_NAME := lineage_golfu
 PRODUCT_BRAND := htc_europe
 PRODUCT_MODEL := HTC Desire C
 PRODUCT_MANUFACTURER := HTC
